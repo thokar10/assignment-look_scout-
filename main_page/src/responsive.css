@@ -1,0 +1,328 @@
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .horizontal-container {
+    display: none;
+  }
+  .left-right p {
+    display: none;
+  }
+  .left-right button {
+    display: none;
+  }
+  .menu-options {
+    display: flex;
+  }
+  .links {
+    width: 70%;
+  }
+  .header-part {
+    padding: 10px 24px 10px 24px;
+  }
+
+  .header-down {
+    padding: 0px;
+  }
+
+  .second-container {
+    width: max-content;
+    height: max-content;
+    padding: 12px;
+  }
+  .second-first {
+    width: 80%;
+    height: max-content;
+  }
+  .second-second {
+    width: 100%;
+    font-size: large;
+    height: max-content;
+    gap: 0px;
+  }
+  .second-second p {
+    width: auto;
+    height: auto;
+    gap: 0px;
+  }
+
+  .third-container {
+    width: 80%;
+    height: auto;
+    padding: 0px;
+  }
+  .third-first {
+    width: 90%;
+    padding: 40px;
+    height: max-content;
+  }
+  .fourth-first {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  .fourth-first div {
+    width: 100%;
+  }
+
+  .fifth {
+    padding: 0px;
+  }
+
+  .fifth-first {
+    height: max-content;
+
+    text-align: center;
+    padding: 54px;
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fith-second {
+    width: 100%;
+    height: max-content;
+  }
+  .fith-second div {
+    width: 100%;
+    height: max-content;
+  }
+  .computer-img {
+    width: 100%;
+    height: auto;
+  }
+  .sixth-div {
+    width: 100%;
+    height: max-content;
+  }
+  .sixth-div div {
+    width: 100%;
+    height: max-content;
+  }
+  .sixth-second {
+    width: 100%;
+    height: max-content;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sixth-third {
+    width: 100%;
+    height: max-content;
+  }
+  .seven div {
+    width: 100%;
+    height: max-content;
+  }
+
+  .seven-first {
+    padding: 0px;
+  }
+  .seven-first p {
+    font-size: 12px;
+  }
+  .right-part {
+    width: 30%;
+  }
+  .hide {
+    display: none;
+  }
+
+  .eight {
+    padding: 0px;
+  }
+
+  .eight-first {
+    width: 100%;
+  }
+
+  .bt {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bt button {
+    width: 100%;
+  }
+  .all {
+    gap: 0px;
+    padding: 0px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .all img {
+    width: auto;
+  }
+  .last {
+    width: 90%;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+  }
+  .last-all {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .horizontal-container {
+    display: none;
+  }
+  .left-right p {
+    display: none;
+  }
+  .left-right button {
+    display: none;
+  }
+  .menu-options {
+    display: flex;
+  }
+  .links {
+    width: 70%;
+  }
+  .header-part {
+    padding: 10px 24px 10px 24px;
+  }
+
+  .header-down {
+    padding: 0px;
+  }
+
+  .second-container {
+    width: max-content;
+    height: max-content;
+    padding: 12px;
+  }
+  .second-first {
+    width: 80%;
+    height: max-content;
+  }
+  .second-second {
+    width: 100%;
+    font-size: large;
+    height: max-content;
+    gap: 0px;
+  }
+  .second-second p {
+    width: auto;
+    height: auto;
+    gap: 0px;
+  }
+
+  .third-container {
+    width: 80%;
+    height: auto;
+    padding: 0px;
+  }
+  .third-first {
+    width: 90%;
+    padding: 40px;
+    height: max-content;
+  }
+  .fourth-first {
+    width: 80%;
+
+    height: max-content;
+  }
+  .fourth-first div {
+    width: 100%;
+  }
+
+  .fifth {
+    padding: 24px;
+  }
+
+  .fifth-first {
+    height: max-content;
+
+    text-align: center;
+    padding: 54px;
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fith-second {
+    width: 100%;
+    height: max-content;
+  }
+  .fith-second div {
+    width: 100%;
+    height: max-content;
+  }
+  .computer-img {
+    width: 100%;
+    height: auto;
+  }
+  .sixth-div {
+    width: 100%;
+    height: max-content;
+  }
+  .sixth-div div {
+    width: 100%;
+    height: max-content;
+  }
+  .sixth-second {
+    width: 100%;
+    height: max-content;
+    padding: 24px;
+  }
+  .sixth-third {
+    width: 100%;
+    height: max-content;
+  }
+  .seven div {
+    width: 100%;
+    height: max-content;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .eight {
+    padding: 0px;
+  }
+
+  .eight-first {
+    width: 100%;
+  }
+
+  .bt {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bt button {
+    width: 100%;
+  }
+  .all {
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .all img {
+    width: auto;
+  }
+  .last {
+    width: 90%;
+    height: max-content;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+  }
+  .last-all {
+    align-items: center;
+    height: max-content;
+  }
+
+  .d {
+    height: max-content;
+  }
+}
