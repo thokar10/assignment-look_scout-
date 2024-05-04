@@ -24,19 +24,21 @@ const HeaderPage = () => {
             </div>
 
             <div className="horizontal-container w-max h-[22px]   flex gap-[32px]">
-              <p>Home</p>
-              <p>Our Products</p>
+              <p className="hover:cursor-pointer">Home</p>
+              <p className="hover:cursor-pointer">Our Products</p>
 
               <div className="flex items-center">
-                <p>Resources</p>
+                <p className="hover:cursor-pointer">Resources</p>
                 <RiArrowDropDownLine className="w-[20px] h-[20px]" />
               </div>
-              <p>Contacts</p>
+              <p className="hover:cursor-pointer">Contacts</p>
             </div>
           </div>
         </div>
         <div className="left-right w-max flex gap-[24px] items-center  h-[46px]">
-          <p className="text-[#437EF7] w-[57px] h-[22px]">Sign Up</p>
+          <p className="text-[#437EF7] w-[57px] h-[22px] hover:cursor-pointer">
+            Sign Up
+          </p>
           <button className="w-[80px] h-[46px] p-[12px 18px 12px 18px] rounded-[6px] bg-[#437EF7] text-white">
             Log in
           </button>

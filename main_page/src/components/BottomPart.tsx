@@ -144,12 +144,21 @@ const BottomPart = () => {
           </div>
         </div>
         <div className="w-[1216px] all flex justify-center p-8 gap-[64px]">
-          <img src={twl} className="w-[80px] h-[24px]" />
-          <img src={sl} className="w-[80px] h-[24px]" />
-          <img src={google} className="w-[80px] h-[24px]" />
-          <img src={paypal} className="w-[80px] h-[24px]" />
-          <img src={payinterest} className="w-[100px] h-[24px]" />
-          <img src={mch} className="w-[88px] h-[24px]" />
+          <img src={twl} className="w-[80px] h-[24px] hover:cursor-pointer" />
+          <img src={sl} className="w-[80px] h-[24px] hover:cursor-pointer" />
+          <img
+            src={google}
+            className="w-[80px] h-[24px] hover:cursor-pointer"
+          />
+          <img
+            src={paypal}
+            className="w-[80px] h-[24px] hover:cursor-pointer"
+          />
+          <img
+            src={payinterest}
+            className="w-[100px] h-[24px] hover:cursor-pointer"
+          />
+          <img src={mch} className="w-[88px] h-[24px] hover:cursor-pointer" />
         </div>
       </div>
 
