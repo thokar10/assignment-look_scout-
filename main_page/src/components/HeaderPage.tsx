@@ -3,9 +3,12 @@ import LookScoutImage from "../images/Lookscout.png";
 import { Drawer } from "antd";
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 const HeaderPage = () => {
   const [open, setOpen] = useState(false);
+
+  const navigate = useNavigate();
 
   const showDrawer = () => {
     setOpen(true);
@@ -31,7 +34,15 @@ const HeaderPage = () => {
                 <p className="hover:cursor-pointer">Resources</p>
                 <RiArrowDropDownLine className="w-[20px] h-[20px]" />
               </div>
-              <p className="hover:cursor-pointer">Contacts</p>
+
+              <p
+                className="hover:cursor-pointer"
+                onClick={() => {
+                  navigate("/contactPage");
+                }}
+              >
+                <u className="text-red-600  hover:text-gray-700">Contacts</u>
+              </p>
             </div>
           </div>
         </div>
